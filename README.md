@@ -1,2 +1,2 @@
 # hydro-logic
-Set of tools for hydro analysis
+Set of quick tools for hydro analysis
