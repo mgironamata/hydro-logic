@@ -5,6 +5,15 @@ from bisect import bisect_left
 import time
 import pdb
 
+__all__ =  ['lookup',
+            'triangular_hyetograph',
+            'rectangular_hyetograph',
+            'time_area_hydrograph',
+            'calculate_storage_volumes',
+            'balance',
+            'compute_calcs'
+            ]
+
 def lookup(x, xs, ys, interpolate=True):
     """Interpolate"""
 
